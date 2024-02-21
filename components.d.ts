@@ -14,6 +14,7 @@ declare module 'vue' {
     IconSupport: typeof import('./src/components/icons/IconSupport.vue')['default']
     IconTooling: typeof import('./src/components/icons/IconTooling.vue')['default']
     NButton: typeof import('naive-ui')['NButton']
+    NConfigProvider: typeof import('naive-ui')['NConfigProvider']
     NIii: typeof import('naive-ui')['NIii']
     NImage: typeof import('naive-ui')['NImage']
     RouterLink: typeof import('vue-router')['RouterLink']
