@@ -7,12 +7,16 @@ const customRoutes: CustomRoute[] = [
   {
     name: 'root',
     path: '/',
-    redirect: {
-      name: '403'
+    redirect: '/home',
+    meta: {
+      title: 'root',
+      constant: true
     }
   }
 ]
 
 const elegantRoutes: ElegantRoute[] = [...customRoutes, ...generatedRoutes]
+
+console.log(generatedRoutes)
 
 export const routes = transformElegantRoutesToVueRoutes(elegantRoutes, layouts, views)

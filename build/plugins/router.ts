@@ -6,5 +6,10 @@ export function setupElegantRouter() {
       base: 'src/layouts/base-layout/index.vue',
       blank: 'src/layouts/blank-layout/index.vue'
     }
+
+    // onRouteMetaGen(routeName) {
+    //   console.log(routeName)
+    //   return {}
+    // }
   })
 }
