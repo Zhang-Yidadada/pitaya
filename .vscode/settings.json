@@ -1,4 +1,8 @@
 {
   "editor.formatOnSave": true,
-  "unocss.root": ["./"]
+  "unocss.root": ["./"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  }
+  // "eslint.validate": ["html", "css", "scss", "json", "jsonc"]
 }
